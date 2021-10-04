@@ -1,0 +1,170 @@
+* {
+  box-sizing: border-box;
+}
+
+:root {
+  --pale-blue: hsl(225, 100%, 94%);
+  --bright-blue: hsl(245, 75%, 52%);
+  --very-pale-blue: hsl(225, 100%, 98%);
+  --desaturated-blue: hsl(224, 23%, 55%);
+  --dark-blue: hsl(223, 47%, 23%);
+  --hover-blue: hsl(245, 65%, 65%);
+  --white: #fff;
+
+  --ff-primary: "Red Hat Display", sans-serif;
+
+  --fs-h1: 1.7rem;
+  --fs-body: 1rem;
+  --fs-extra: 0.7rem;
+
+  --fw-reg: 500;
+  --fw-bold: 700;
+  --fw-extra-bold: 900;
+
+  --br: 13px;
+  --bs: hsl(244deg 93% 91%) 0px 20px 16px -6px,
+    rgb(255 255 255 / 80%) -6px -2px 16px 0px;
+}
+
+body {
+  font-family: var(--ff-primary);
+  font-size: var(--fs-body);
+  font-weight: var(--fw-reg);
+  color: var(--desaturated-blue);
+  margin: 0;
+  text-align: center;
+  background: url(images/pattern-background-mobile.svg);
+  background-color: var(--pale-blue);
+  background-repeat: no-repeat;
+  background-size: contain;
+  line-height: 1.7;
+}
+
+main {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+h1 {
+  font-weight: var(--fw-extra-bold);
+  color: var(--dark-blue);
+  font-size: var(--fs-h1);
+}
+
+img {
+  max-width: 100%;
+  object-fit: cover;
+}
+
+.img-hero {
+  width: 100%;
+  border-radius: var(--br) var(--br) 0 0;
+}
+
+.container {
+  width: 90%;
+  max-width: 375px;
+  margin: 2em auto 1em;
+  background: var(--white);
+  border-radius: var(--br);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.main-info {
+  max-width: 90%;
+  padding: 0 1em;
+  margin: 0 auto;
+}
+
+.subscription-plan {
+  display: flex;
+  align-items: center;
+  justify-content: left;
+  padding: 1em;
+  margin: 2em 0;
+  background: var(--very-pale-blue);
+  border-radius: var(--br);
+}
+
+.music-icon {
+  margin-right: 1em;
+}
+
+.plan-type {
+  color: var(--dark-blue);
+  font-weight: var(--fw-extra-bold);
+}
+
+.change-plan-btn {
+  margin-left: auto;
+  color: var(--bright-blue);
+  font-weight: var(--fw-bold);
+}
+
+.change-plan-btn:hover,
+.change-plan-btn:focus {
+  color: var(--hover-blue);
+  text-decoration: none;
+}
+
+.btn {
+  display: block;
+  margin: 1em auto;
+  font-family: inherit;
+  font-size: inherit;
+  font-weight: var(--fw-bold);
+  border: none;
+  padding: 1em;
+  width: 100%;
+  border-radius: var(--br);
+}
+
+.btn-primary {
+  background: var(--bright-blue);
+  color: #fff;
+  color: var(--white);
+  box-shadow: var(--bs);
+}
+
+.btn-primary:hover,
+.btn-primary:focus {
+  background: var(--hover-blue);
+  cursor: pointer;
+}
+
+.btn-secondary {
+  border: none;
+  background: transparent;
+  color: inherit;
+  padding: 0.5em;
+}
+
+.btn-secondary:hover,
+.btn-secondary:focus {
+  color: var(--dark-blue);
+  cursor: pointer;
+}
+
+.attribution {
+  font-size: var(--fs-extra);
+}
+
+.attribution a {
+  color: var(--bright-blue);
+}
+
+.attribution a:hover,
+.attribution a:focus {
+  color: var(--hover-blue);
+}
+
+@media (min-width: 750px) {
+  body {
+    background-image: url(images/pattern-background-desktop.svg);
+  }
+}
