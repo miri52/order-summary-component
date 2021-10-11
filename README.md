@@ -11,6 +11,7 @@ This is a solution to the [Order summary card challenge on Frontend Mentor](http
 - [My process](#my-process)
   - [Built with](#built-with)
   - [Useful resources](#useful-resources)
+  - [What I learnt thanks to feedback](#what-i-learnt-thanks-to-feedback)
 - [Author](#author)
 
 ## Overview
@@ -43,6 +44,13 @@ Users should be able to:
 
 - [Box shadows](https://www.joshwcomeau.com/css/designing-shadows/) - A great article about creating more realistic shadows.
 - [The Responsive Web Design Bootcamp](https://scrimba.com/learn/responsive) - An amazing course with the CSS Evangelist Kevin Powell. Media queries, flexbox, grid, and much more.
+
+### What I learnt thanks to feedback
+
+- purely decorative icons should have aria-hidden: "true" to improve accessibility
+- to remove the line underneath an img, use display: block
+
+Thanks [kens_visuals](https://github.com/kens-visuals)
 
 ## Author
 
