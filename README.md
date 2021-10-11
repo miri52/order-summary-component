@@ -27,8 +27,8 @@ Users should be able to:
 
 ### Links
 
-- [Solution URL:](https://your-solution-url.com)
-- [Live Site URL:](https://miri52.github.io/order-summary-component/)
+- [Solution URL](https://www.frontendmentor.io/solutions/card-component-using-css-variables-and-flexbox-pYG56bvAy)
+- [Live Site URL](https://miri52.github.io/order-summary-component/)
 
 ## My process
 
@@ -47,4 +47,4 @@ Users should be able to:
 ## Author
 
 - Frontend Mentor - [miri52](https://www.frontendmentor.io/profile/miri52)
-- LinkedIn - [Miriama Svítková](www.linkedin.com/in/miriama-svitkova)
+- LinkedIn - [Miriama Svítková](https://www.linkedin.com/in/miriama-svitkova)
